@@ -1,0 +1,32 @@
+{
+  "name": "eslint-plugin-crb",
+  "version": "1.0.0",
+  "description": "My ESLint rules",
+  "main": "index.js",
+  "author": "Chris Breiding (chris@chrisbreiding.com)",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintplugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisbreiding/eslint-plugin-crb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrisbreiding/eslint-plugin-crb/issues"
+  },
+  "homepage": "https://github.com/chrisbreiding/eslint-plugin-crb#readme",
+  "peerDependencies": {
+    "eslint": "5.9.0"
+  },
+  "optionalDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-plugin-mocha": "^5.2.0",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "scripts": {
+    "lint": "eslint --fix *.js",
+    "precommit": "npm run lint"
+  }
+}
