@@ -6,7 +6,7 @@ module.exports = {
         commonjs: true,
       },
       parserOptions: {
-        ecmaVersion: 2022,
+        ecmaVersion: 2021,
       },
       rules: {
         'array-bracket-newline': ['error', 'consistent'],
@@ -155,7 +155,7 @@ module.exports = {
       },
       parser: 'babel-eslint',
       parserOptions: {
-        ecmaVersion: 2022,
+        ecmaVersion: 2021,
         sourceType: 'module',
         ecmaFeatures: {
           jsx: true,
