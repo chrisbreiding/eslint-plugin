@@ -77,46 +77,6 @@ module.exports = {
         'object-curly-spacing': ['error', 'always'],
         'object-shorthand': 'error',
         'one-var': ['error', 'never'],
-        'padding-line-between-statements': [
-          'error',
-          {
-            'blankLine': 'always',
-            'prev': '*',
-            'next': 'return'
-          },
-          {
-            'blankLine': 'always',
-            'prev': [
-              'const',
-              'let',
-              'var',
-              'if',
-              'while',
-              'export',
-              'cjs-export',
-              'import',
-              'cjs-import'
-            ],
-            'next': '*'
-          },
-          {
-            'blankLine': 'any',
-            'prev': [
-              'const',
-              'let',
-              'var',
-              'import',
-              'cjs-import'
-            ],
-            'next': [
-              'const',
-              'let',
-              'var',
-              'import',
-              'cjs-import'
-            ]
-          }
-        ],
         'prefer-rest-params': 'error',
         'prefer-spread': 'error',
         'prefer-template': 'error',
