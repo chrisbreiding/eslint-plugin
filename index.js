@@ -123,7 +123,7 @@ module.exports = {
           legacyDecorators: true,
         },
       },
-      plugins: ['react'],
+      plugins: ['@babel/plugin-syntax-jsx', 'react'],
       rules: {
         'react/jsx-curly-spacing': 'error',
         'react/jsx-equals-spacing': 'error',
