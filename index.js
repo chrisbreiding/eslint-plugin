@@ -122,8 +122,14 @@ module.exports = {
           jsx: true,
           legacyDecorators: true,
         },
+        babelOptions: {
+          plugins: [
+            ['@babel/plugin-syntax-decorators', { version: 'legacy' }],
+            '@babel/plugin-syntax-jsx',
+          ]
+        },
       },
-      plugins: ['@babel/plugin-syntax-jsx', 'react'],
+      plugins: ['react'],
       rules: {
         'react/jsx-curly-spacing': 'error',
         'react/jsx-equals-spacing': 'error',
