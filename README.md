@@ -48,7 +48,7 @@ npm install --save-dev eslint-plugin-mocha
 If using the `react` preset:
 
 ```bash
-npm install --save-dev babel-eslint eslint-plugin-react
+npm install --save-dev @babel/eslint-parser eslint-plugin-react
 ```
 
 ## License
